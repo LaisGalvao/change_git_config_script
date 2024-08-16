@@ -1,6 +1,6 @@
 # Configurando e Usando um Script para Alterar Configurações do Git Globalmente
 
-Este guia fornece instruções detalhadas sobre como configurar um script para alterar dinamicamente as configurações do Git (`user.name` e `user.email`) a partir de qualquer diretório no seu sistema.
+Como configurar um script para alterar dinamicamente as configurações do Git (`user.name` e `user.email`) a partir de qualquer diretório no seu sistema.
 
 ## Sumário
 
