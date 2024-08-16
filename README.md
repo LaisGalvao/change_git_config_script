@@ -1,6 +1,6 @@
 # Configurando e Usando um Script para Alterar Configurações do Git Globalmente
 
-Como configurar um script para alterar dinamicamente as configurações do Git (`user.name` e `user.email`) a partir de qualquer diretório no seu sistema.
+Como configurar um script, presente no repositório, para alterar dinamicamente as configurações do Git (`user.name` e `user.email`) a partir de qualquer diretório no seu sistema.
 
 ## Sumário
 
@@ -24,6 +24,8 @@ Como configurar um script para alterar dinamicamente as configurações do Git (
 
 ## Passos para Configurar o Script
 
+O script `change_git_config.sh` já está presente neste repositório. Para configurá-lo e usá-lo globalmente, siga os passos abaixo:
+
 ### 1. Crie um Diretório para Scripts
 
 Primeiro, crie um diretório para armazenar scripts que você deseja executar globalmente no seu sistema:
@@ -34,10 +36,10 @@ mkdir -p ~/scripts
 
 ### 2. Movendo o Script para o Diretório de Scripts
 
-Se você já tem o script pronto, mova-o para o diretório `~/scripts`:
+Agora, mova o script `change_git_config.sh` que está presente no repositório para o diretório `~/scripts`:
 
 ```bash
-mv /caminho/atual/change_git_config.sh ~/scripts/change_git_config.sh
+mv /caminho/do/repositório/change_git_config.sh ~/scripts/change_git_config.sh
 ```
 
 ### 3. Adicione o Diretório ao PATH
@@ -123,3 +125,4 @@ Digite o Git user.email: [seu email]
 
 ---
 
+Este documento cobre o processo de configuração de um script Bash, que já está presente no repositório, para ajustar dinamicamente as configurações do Git a partir de qualquer diretório no seu sistema. Isso simplifica o gerenciamento de múltiplas identidades Git, especialmente em ambientes de trabalho com diversos repositórios.
